@@ -1,0 +1,11 @@
+##C-Gate Server Access Control File
+interface 0:0:0:0:0:0:0:1 Program
+interface 127.0.0.1 Program
+interface localhost Program
+remote 255.255.255.255 Program
+remote 0.0.0.0 Program
+remote 192.168.11.24 Program
+remote 192.168.11.24 Program
+remote 192.168.11.68 Program
+remote 192.168.11.188 Program
+## End of access control file
